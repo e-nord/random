@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Unnamed Route</name>
+<open>1</open>
+<Style id="RoutePath">
+<LineStyle>
+<color>CC14DCF3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>http://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>http://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>20.988693</longitude>
+<latitude>52.224960</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>20.9886932,52.2249604,110</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>FINISH</name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>20.9608197,52.2052397,108</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fly-Over Tour</name>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+20.9886932,52.2249604,110
+20.9858608,52.224198,109
+20.9828997,52.2233568,110
+20.9754324,52.2211747,113
+20.9682655,52.2188085,108
+20.961442,52.2163895,107
+20.9627295,52.2158374,106
+20.9658086,52.2148711,109
+20.9661412,52.2162646,105
+20.9664631,52.2177568,106
+20.9638023,52.2165407,107
+20.9649181,52.2162778,105
+20.9680831,52.2173164,106
+20.968287,52.218092,108
+20.9704757,52.2189005,108
+20.9718919,52.2193343,110
+20.9731579,52.2188479,112
+20.9634161,52.2086323,107
+20.962944,52.2082247,105
+20.9614205,52.2087901,107
+20.9556913,52.2073963,110
+20.9564853,52.2028332,111
+20.9600902,52.2020705,104
+20.9602189,52.2037932,108
+20.9630299,52.2037275,107
+20.9621072,52.2076856,107
+20.9572363,52.207107,111
+20.9576225,52.2035565,126
+20.959146,52.2038064,114
+20.95891,52.2065547,109
+20.9607124,52.2067783,107
+20.9608197,52.2052397,108
+</coordinates>
+</LineString>
+</Placemark>
+<Style id="DistMarkerStyle">
+<IconStyle id="DistMarkerIcon">
+<Icon><href>http://www.plotaroute.com/images/icons/mileicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Placemark>
+<name>1 mile</name>
+<styleUrl>#DistMarkerStyle</styleUrl>
+<Point>
+<coordinates>20.967550050292644,52.21855486581782,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>2 miles</name>
+<styleUrl>#DistMarkerStyle</styleUrl>
+<Point>
+<coordinates>20.96689105388439,52.216925228089835,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>3 miles</name>
+<styleUrl>#DistMarkerStyle</styleUrl>
+<Point>
+<coordinates>20.965425169167858,52.21073908180533,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>4 miles</name>
+<styleUrl>#DistMarkerStyle</styleUrl>
+<Point>
+<coordinates>20.95966144293271,52.20216121347755,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>5 miles</name>
+<styleUrl>#DistMarkerStyle</styleUrl>
+<Point>
+<coordinates>20.95783270407658,52.20359097981538,0</coordinates>
+</Point>
+</Placemark>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>http://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<ScreenOverlay>
+<name>plotaroute.com</name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>http://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.04" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="http://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>
